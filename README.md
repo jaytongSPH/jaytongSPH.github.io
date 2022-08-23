@@ -1,5 +1,5 @@
 ### 我的博客
-地址：https://jaytong.org
+地址：https://jaytong.github.io
 
 ### 安装说明
 1. fork库到自己的github
