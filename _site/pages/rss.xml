@@ -6,6 +6,56 @@
     <description>Jay Tong’s home</description>
     
       <item>
+        <title>git常用命令</title>
+        <link>http://localhost:4000/2022/08/24/programming-tip-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/08/24/programming-tip-2.html</guid>
+        <pubDate>Wed, 24 Aug 2022 00:00:00 +0800</pubDate>
+        <description>&lt;p&gt;git clone https://github.com/jaytongSPH/jaytongSPH.github.io&lt;/p&gt;
+
+&lt;p&gt;git config –list&lt;/p&gt;
+
+&lt;p&gt;git pull origin main 下载代码并合并&lt;/p&gt;
+
+&lt;p&gt;git add –all&lt;/p&gt;
+
+&lt;p&gt;git commit -m “update”&lt;/p&gt;
+
+&lt;p&gt;git push origin main  上传代码并合并&lt;/p&gt;
+
+&lt;p&gt;git branch 查看本地项目的分支&lt;/p&gt;
+
+&lt;p&gt;git branch -r 查看远程项目的分支&lt;/p&gt;
+
+&lt;p&gt;git branch -d 删除本地项目的分支&lt;/p&gt;
+
+&lt;p&gt;git checkout 显示分支名称&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Ubuntu22.04 LTS 安装</title>
+        <link>http://localhost:4000/2022/08/24/programming-tip-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/08/24/programming-tip-1.html</guid>
+        <pubDate>Wed, 24 Aug 2022 00:00:00 +0800</pubDate>
+        <description>&lt;p&gt;安装Ubuntu需要注意的事项如下：&lt;/p&gt;
+
+&lt;p&gt;安装时选择Something else，然后将硬盘合理分为4个区:&lt;/p&gt;
+
+&lt;p&gt;逻辑分区(efi):500MB-1G&lt;/p&gt;
+
+&lt;p&gt;逻辑分区(swap):10-12G&lt;/p&gt;
+
+&lt;p&gt;主分区(ext4,根文件夹/):100G&lt;/p&gt;
+
+&lt;p&gt;主分区(ext4,用户文件夹/home):1T&lt;/p&gt;
+
+&lt;p&gt;注意，系统可能会自动分配efi分区，请务必手动重新分，不然会报错:sdb设备的一个vfat文件系统挂载到/boot/efi上失败;&lt;/p&gt;
+
+&lt;p&gt;此外，安装过程要断网以节省更新所需的时间。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
         <title>讀書筆記——東京塔</title>
         <link>http://localhost:4000/2018/09/10/reading-note.html</link>
         <guid isPermaLink="true">http://localhost:4000/2018/09/10/reading-note.html</guid>

@@ -6,8 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <!--[if lte IE 8]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
 
-<title>Welcome | Jian's Blog</title>
+<title>Ubuntu22.04 LTS 安装 | Jian's Blog</title>
 <meta name="author" content="童建">
+
+  <meta name="keywords" content="Ubuntu">
 
 
 
@@ -72,14 +74,22 @@
     <div id="post">
       <div id="pjax">
         <article id="post__content">
-    <h1 id="post__title" data-identifier="">Welcome</h1>
-    <p>满纸辛酸言</p>
+    <h1 id="post__title" data-identifier="20220824">Ubuntu22.04 LTS 安装</h1>
+    <p>安装Ubuntu需要注意的事项如下：</p>
 
-<p>一把辛酸泪</p>
+<p>安装时选择Something else，然后将硬盘合理分为4个区:</p>
 
-<p>都云作者痴</p>
+<p>逻辑分区(efi):500MB-1G</p>
 
-<p>谁解其中味</p>
+<p>逻辑分区(swap):10-12G</p>
+
+<p>主分区(ext4,根文件夹/):100G</p>
+
+<p>主分区(ext4,用户文件夹/home):1T</p>
+
+<p>注意，系统可能会自动分配efi分区，请务必手动重新分，不然会报错:sdb设备的一个vfat文件系统挂载到/boot/efi上失败;</p>
+
+<p>此外，安装过程要断网以节省更新所需的时间。</p>
 
     <div class="declare">
         <div>
@@ -90,9 +100,9 @@
 <!-- end #post__content -->
 
 <div id="post__share">
-  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=http://localhost:4000/&text=Welcome" target="_blank"></a>
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=http://localhost:4000/2022/08/24/programming-tip-1.html&text=Ubuntu22.04 LTS 安装" target="_blank"></a>
   <a id="icon-cc" class="fontello" href="http://github.com/jaytong90" target="_blank"></a>
-  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=http://localhost:4000/&title=Welcome" target="_blank"></a>
+  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=http://localhost:4000/2022/08/24/programming-tip-1.html&title=Ubuntu22.04 LTS 安装" target="_blank"></a>
 </div>
 <!-- end #post__share -->
 
