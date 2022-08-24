@@ -19,7 +19,7 @@ author:                                     #自定义常亮
 title: Jian's Blog                          #自定义常量
 
 # avatar头像及Favicon
-avatar: http://www.theavatarlibrary.co.uk/avatars/kancolle/kancolle-shimakaze-07b.jpg
+avatar: https://s1.ax1x.com/2022/08/24/vcvxzD.jpg
 #favicon: http://convertico.com/test/jpg-to-ico/574a2c192e1a6/shimakaze-kantai-collection.ico
 
 locals:                                     #自定义常量
@@ -30,4 +30,4 @@ subscribe_rss: /pages/atom.xml              #订阅地址
 markdown: kramdown                         #markdown解释器
 
 disqus:
-  shortname: https-jaytong-org
+  shortname: https-jaytongSPH-github-io
