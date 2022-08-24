@@ -20,7 +20,7 @@ title: Jian's Blog                          #自定义常量
 
 # avatar头像及Favicon
 avatar: https://s1.ax1x.com/2022/08/24/vcvxzD.jpg
-#favicon: http://convertico.com/test/jpg-to-ico/574a2c192e1a6/shimakaze-kantai-collection.ico
+favicon: https://pic.imgdb.cn/item/6305be4916f2c2beb1642a48.png
 
 locals:                                     #自定义常量
   tags: 标签
